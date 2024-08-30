@@ -5,7 +5,7 @@
 // import { FormCreateTask } from './components/FormCreateTask'
 import { Header } from './components/Header'
 import { Input } from './components/Input'
-
+import {TasksList} from './components/TasksList'
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -20,7 +20,7 @@ function App() {
           <Input type='submit' id='TaskName' value='Add' className='border-solid border-2 border-gray-500 rounded-lg bg-lime-400 w-[15rem] cursor-pointer'/>
         </div>
       </form>
-
+      <TasksList />
     </>
   )
 }
